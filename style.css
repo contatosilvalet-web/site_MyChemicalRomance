@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #e8e9eb;
+    color: #111111;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Instrument Serif", serif;
+}
+
+.main a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.border {
+    border: 1px solid;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 240px;
+    height: 100vh;
+    padding: 40px 10px 30px 10px;
+    border-right: 5px solid #000000;
+    transition: all 0.35s;
+    background-color: #f2f3f5;
+    flex-shrink: 0;
+}
+
+.sidebar-header {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Instrument Serif", serif;
+}
+
+.capa {
+    width: 38px;
+    min-height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s;
+    margin-left: 0;
+}
+
+.capa:hover {
+    transform: scale(1.5);
+}
+
+.sidebar>nav {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-link {
+    height: 60px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link>span {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+    border-radius: 24px;
+    line-height: 1;
+    transition: all 0.2s;
+}
+
+.nav-link:hover>span {
+    background: #e1e1e1;
+}
+
+.nav-link i {
+    position: relative;
+    font-size: 34px;
+    transition: 0.2s;
+}
+
+.nav-link span {
+    font-size: 20px;
+}
+
+.foto-banda {
+    width: 750px;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #2f3336;
+}
+
+.foto-perfil-da-banda {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #2f3336;
+}
+
+.main {
+    flex: 1;
+    padding: 20px 40px;
+    overflow: hidden;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 26px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-section {
+    padding: 60px 0;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #2f3336;
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+.events-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.events-list li {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.social-message {
+    font-style: italic;
+    border-left: 4px solid #2f3336;
+    padding-left: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+@media (max-width: 920px) {
+    .sidebar {
+        width: 72px;
+    }
+    .nav-link>span {
+        width: 50px;
+        padding: 0;
+        justify-content: center;
+    }
+    .nav-link>span>span {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .main {
+        padding: 20px;
+    }
+}
