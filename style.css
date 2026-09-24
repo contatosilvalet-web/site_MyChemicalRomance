@@ -25,7 +25,6 @@ body {
     min-height: 100vh;
 }
 
-/* CONTAINER DO CONTEÚDO PRINCIPAL + RODAPÉ */
 .content-wrapper {
     flex: 1;
     display: flex;
@@ -52,7 +51,6 @@ body {
     border: 1px solid;
 }
 
-/* SIDEBAR STICKY */
 .sidebar {
     position: sticky;
     top: 0;
@@ -141,7 +139,6 @@ h4 {
     font-size: 20px;
 }
 
-/* IMAGENS RESPONSIVAS */
 .foto-banda,
 .foto-perfil-da-banda {
     width: 100%;
@@ -215,7 +212,6 @@ a {
     }
 }
 
-/* ACESSIBILIDADE */
 .a11y-float-btn {
   position: fixed;
   top: 20px;
@@ -398,7 +394,6 @@ body.a11y-dyslexia {
   display: block;
 }
 
-/* RODAPÉ SITE-FOOTER */
 .site-footer {
   width: 100%;
   background-color: var(--bg-sidebar, #f4f4f4);
