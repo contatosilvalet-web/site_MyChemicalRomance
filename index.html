@@ -96,7 +96,7 @@
 
         <section id="perfil" class="content-section">
             <h2>Perfil da Banda</h2>
-            <img class="foto-perfil-da-banda" src="https://www.dondeir.com/wp-content/uploads/2026/03/my-chemical-romance-mexico-2026-concierto-bazar-de-merch-cdmx-la-extrana-pizza.jpg" alt="Perfil da banda My Chemical Romance" />
+            <img class="foto-perfil-da-banda" src="https://www.mychemicalromance.com/sites/g/files/g2000023981/files/2026-09/Slide-2_i39egled.jpg" alt="Perfil da banda My Chemical Romance" />
 
             <p>Informações e loja oficial integradas:</p>
             <div class="profile-card">
@@ -111,6 +111,77 @@
         </footer>
 
     </main>
-</body>
 
+<button id="accessibility-toggle-btn" aria-label="Abrir Painel de Acessibilidade" class="a11y-float-btn">
+  ♿
+</button>
+
+<aside id="accessibility-panel" class="a11y-drawer" aria-hidden="true">
+  <div class="a11y-header">
+    <h2><span>♿</span> ACESSIBILIDADE</h2>
+    <button id="close-a11y-panel" aria-label="Fechar Painel de Acessibilidade">✕</button>
+  </div>
+
+  <div class="a11y-body">
+    <section class="a11y-group">
+      <label class="a11y-title">AUMENTAR / DIMINUIR FONTE</label>
+      <div class="a11y-btn-grid font-controls">
+        <button id="btn-font-decrease" aria-label="Diminuir Fonte">A-</button>
+        <button id="btn-font-reset" aria-label="Tamanho Padrão">A (Padrão)</button>
+        <button id="btn-font-increase" aria-label="Aumentar Fonte">A+</button>
+      </div>
+    </section>
+
+    <section class="a11y-group">
+      <label class="a11y-title">CONTRASTE E CORES</label>
+      <div class="a11y-btn-grid color-controls">
+        <button id="btn-high-contrast">Alto Contraste</button>
+        <button id="btn-monochrome">Monocromático</button>
+        <button id="btn-invert-colors">Inverter Cores</button>
+      </div>
+    </section>
+
+    <section class="a11y-group">
+      <label class="a11y-title">RECURSOS VISUAIS</label>
+      <div class="a11y-toggle-item">
+        <span>Guia de Leitura</span>
+        <input type="checkbox" id="toggle-reading-guide">
+      </div>
+      <div class="a11y-toggle-item">
+        <span>Cursor Ampliado</span>
+        <input type="checkbox" id="toggle-large-cursor">
+      </div>
+      <div class="a11y-toggle-item">
+        <span>Fonte para Dislexia</span>
+        <input type="checkbox" id="toggle-dyslexia-font">
+      </div>
+    </section>
+
+    <section class="a11y-group">
+      <label class="a11y-title">LEITURA EM VOZ ALTA</label>
+      <div class="a11y-toggle-item">
+        <span>Ler Texto Selecionado</span>
+        <input type="checkbox" id="toggle-text-to-speech">
+      </div>
+    </section>
+  </div>
+</aside>
+
+<div id="reading-guide-line" class="reading-guide-hidden"></div>
+<script src="script.js"></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<footer class="site-footer">
+  <div class="footer-container">
+    <p class="copyright">
+      &copy; 2026 My Chemical Romance &amp; WARNER RECORDS. ALL RIGHTS RESERVED.
+    </p>
+    <p class="developer-credits">
+      Desenvolvido por 
+      <a href="https://github.com/contatosilvalet-web" target="_blank" rel="noopener noreferrer">
+        <span class="brand-dev">DevInclui</span>
+      </a>
+    </p>
+  </div>
+</footer>
+</body>
 </html>
