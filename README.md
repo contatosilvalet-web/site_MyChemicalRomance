@@ -22,6 +22,19 @@ Para aplicar os conceitos de forma criativa e autêntica, a interface foi constr
 
 ---
 
+## 🔗 Demonstração e Deploy
+
+O projeto está publicado no Vercel e pode ser acessado através do link abaixo:
+
+🌐 **[Acessar o Projeto Online no Vercel](https://site-my-chemical-romance.vercel.app/)**
+
+---
+
+## 📸 Pré-visualização
+<img width="1895" height="939" alt="image" src="https://github.com/user-attachments/assets/33b956e4-0539-4354-b010-e1f7284e1acd" />
+
+---
+
 ## ♿ Recursos de Acessibilidade & Inclusão (DevInclui)
 
 Alinhado aos princípios de design inclusivo, a aplicação conta com um **Painel de Acessibilidade** interativo que oferece:
@@ -41,8 +54,19 @@ Alinhado aos princípios de design inclusivo, a aplicação conta com um **Paine
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 📂 Como executar o projeto localmente
 
-1. Clone o repositório:
+1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/contatosilvalet-web/NOME-DO-SEU-REPOSITORIO.git](https://github.com/contatosilvalet-web/NOME-DO-SEU-REPOSITORIO.git)
+   git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+   ```
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd SEU-REPOSITORIO
+   ```
+
+3. **Abra o arquivo no seu navegador:**
+   Basta abrir o arquivo `index.html` diretamente ou utilizar a extensão **Live Server** no VS Code.
+
+---
